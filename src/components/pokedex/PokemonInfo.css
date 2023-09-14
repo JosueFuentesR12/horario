@@ -1,0 +1,31 @@
+/* pokemoninfo.css */
+.Name {
+    color: #663cd0;
+    font-size: 1.8rem; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    text-transform: uppercase;
+    margin:  .5rem 0 0 0;
+}
+
+.Image {
+    width: 50%; 
+    max-width: 300px; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+}
+
+.PokemonContainer {
+    text-align: center; 
+    padding: 200px; 
+    background-color: #180adf;
+    border-radius: 100px; 
+    box-shadow: 0 0 10px rgba(0, 170, 255, 0.2);
+}
+
+.tabpanel { height: 100%; overflow-y: auto; text-transform: uppercase; }
+.tab { padding: 0; padding-bottom: 6rem; }
+
+ul { list-style: none; padding: 0; }
+li { text-align: start; }
